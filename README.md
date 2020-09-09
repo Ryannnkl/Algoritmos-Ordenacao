@@ -1,1 +1,18 @@
-"# Algoritmos de ordenaá∆o" 
+<h3 align="center">
+  <img src="https://img.icons8.com/nolan/2x/flow-chart.png"/>
+  <br/>
+  <b>Algoritmos de ordena√ß√£o</b>
+</h3>
+
+## Algoritmos :memo:
+
+| algoritmos     | funcionando        |
+| :------------- | :----------------- |
+| Bubble Sort    | :heavy_check_mark: |
+| Selection Sort | :x:                |
+| Insertion Sort | :x:                |
+| Quick Sort     | :x:                |
+| Marge Sort     | :x:                |
+| Heap Sort      | :x:                |
+| Radix Sort     | :x:                |
+| Tim Sort       | :x:                |
