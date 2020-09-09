@@ -6,13 +6,13 @@
 
 ## Algoritmos :memo:
 
-| algoritmos     | funcionando        |
-| :------------- | :----------------- |
+| algoritmos     |    funcionando     |
+| :------------- | :----------------: |
 | Bubble Sort    | :heavy_check_mark: |
-| Selection Sort | :x:                |
-| Insertion Sort | :x:                |
-| Quick Sort     | :x:                |
-| Marge Sort     | :x:                |
-| Heap Sort      | :x:                |
-| Radix Sort     | :x:                |
-| Tim Sort       | :x:                |
+| Selection Sort |        :x:         |
+| Insertion Sort |        :x:         |
+| Quick Sort     |        :x:         |
+| Marge Sort     |        :x:         |
+| Heap Sort      |        :x:         |
+| Radix Sort     |        :x:         |
+| Tim Sort       |        :x:         |
