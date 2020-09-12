@@ -1,51 +1,29 @@
+def particao(lista, inicio, fim):
+    i = inicio
+    pivot = lista[fim]
 
-def partition(arr, low, high):
-	i = (low-1)		 # index of smaller element
-	pivot = arr[high]	 # pivot
+    for j in range(inicio, fim):
 
-	for j in range(low, high):
+        if lista[j] <= pivot:
 
-		# If current element is smaller than or
-		# equal to pivot
-		if arr[j] <= pivot:
+            lista[i], lista[j] = lista[j], lista[i]
+            i = i + 1
 
-			# increment index of smaller element
-			i = i+1
-			arr[i], arr[j] = arr[j], arr[i]
-
-	arr[i+1], arr[high] = arr[high], arr[i+1]
-	return (i+1)
-
-# The main function that implements QuickSort
-# arr[] --> Array to be sorted,
-# low --> Starting index,
-# high --> Ending index
-
-# Function to do Quick sort
+    lista[i], lista[fim] = lista[fim], lista[i]
+    return i
 
 
-def quickSort(arr, low, high):
-	if len(arr) == 1:
-		return arr
-	if low < high:
-
-		# pi is partitioning index, arr[p] is now
-		# at right place
-		pi = partition(arr, low, high)
-
-		# Separately sort elements before
-		# partition and after partition
-		quickSort(arr, low, pi-1)
-		quickSort(arr, pi+1, high)
+def quickSort(lista, inicio=0, fim=None):
+    if fim is None:
+        fim = len(lista) - 1
+    if inicio < fim:
+        pivot = particao(lista, inicio, fim)
+        quickSort(lista, inicio, pivot - 1)
+        quickSort(lista, pivot + 1, fim)
 
 
-# Driver code to test above
-arr = [10, 7, 8, 9, 1, 5]
+arr = [4, 10, 7, 3, 8, 9, 1, 5, 0, 2, 6]
 n = len(arr)
-quickSort(arr, 0, n-1)
-print("Sorted array is:")
-for i in range(n):
-	print("%d" % arr[i]),
-
-# This code is contributed by Mohit Kumra
-#This code in improved by https://github.com/anushkrishnav
+print(arr, " lista não ordenada")
+quickSort(arr)
+print(arr, " lista ordenada")
