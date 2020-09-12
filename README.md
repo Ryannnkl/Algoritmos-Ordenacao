@@ -11,7 +11,7 @@
 | Bubble Sort    | :heavy_check_mark: |
 | Selection Sort |        :x:         |
 | Insertion Sort |        :x:         |
-| Quick Sort     |        :x:         |
+| Quick Sort     | :heavy_check_mark: |
 | Marge Sort     |        :x:         |
 | Heap Sort      |        :x:         |
 | Radix Sort     |        :x:         |
