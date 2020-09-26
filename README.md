@@ -12,7 +12,7 @@
 | Selection Sort |        :x:         |
 | Insertion Sort |        :x:         |
 | Quick Sort     | :heavy_check_mark: |
-| Marge Sort     |        :x:         |
+| Merge Sort     | :heavy_check_mark: |
 | Heap Sort      |        :x:         |
 | Radix Sort     |        :x:         |
 | Tim Sort       |        :x:         |
