@@ -9,7 +9,7 @@
 | algoritmos     |    funcionando     |
 | :------------- | :----------------: |
 | Bubble Sort    | :heavy_check_mark: |
-| Selection Sort |        :x:         |
+| Selection Sort | :heavy_check_mark: |
 | Insertion Sort |        :x:         |
 | Quick Sort     | :heavy_check_mark: |
 | Merge Sort     | :heavy_check_mark: |
