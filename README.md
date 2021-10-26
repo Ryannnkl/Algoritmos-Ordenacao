@@ -4,6 +4,8 @@
   <b>Algoritmos de ordenação</b>
 </h3>
 
+> São Algoritmos para ordenação de listas (organizar do menor para o maior)
+ 
 ## Algoritmos :memo:
 
 | algoritmos     |    funcionando     |
